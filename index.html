@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="container">
+      <nav
+        class="navbar fixed-top navbar-expand-sm navbar-light bg-light"
+        style="padding-left: 5%; padding-right: 5%"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              class="img-fluid img-responsive"
+              style="width: 50%"
+              src="logo-icon/Logo.png"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav" style="font-weight: bold">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="container" style="padding-top: 100px">
+        <div class="d-flex justify-content-around">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+              <h1 class="text-uppercase first-header-font">backpack</h1>
+              <h1 class="text-uppercase second-header-font">Penguin Fashion</h1>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <a
+                href="#"
+                class="btn btn-info btn-sm"
+                style="
+                  padding: 10px;
+                  background-color: #2a1e59;
+                  border-radius: 10px;
+                "
+                ><span style="color: white">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-cart"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                    />
+                  </svg>
+                  BUY NOW
+                </span>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <img src="logo-icon/green.png" style="width: 100%" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="product" class="container" style="padding-top: 100px">
+        <h1 class="text-uppercase third-header-font">casual backpack</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 card-border">
+              <img src="photos/img1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title card-title-new">
+                  Nike Sportswear Hayward
+                </h3>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <h2>
+                  <span class="price-text"> $200</span>
+                  <a
+                    href="#"
+                    class="btn btn-info btn-sm"
+                    style="
+                      padding: 10px;
+                      background-color: #2a1e59;
+                      float: right;
+                      border-radius: 10px;
+                    "
+                    ><span style="color: white">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-cart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                        />
+                      </svg>
+                      BUY NOW
+                    </span>
+                  </a>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-border">
+              <img src="photos/img2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title card-title-new">School Backpack Black Colour</h3>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content. To buy click on buy button.
+                </p>
+                <h2>
+                  <span class="price-text"> $310</span>
+                  <a
+                    href="#"
+                    class="btn btn-info btn-sm"
+                    style="
+                      padding: 10px;
+                      background-color: #2a1e59;
+                      float: right;
+                      border-radius: 10px;
+                    "
+                    ><span style="color: white">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-cart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                        />
+                      </svg>
+                      BUY NOW
+                    </span>
+                  </a>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-border">
+              <img src="photos/img3.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title card-title-new">
+                  CityLite Security Backpack
+                </h3>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <h2>
+                  <span class="price-text"> $280</span>
+                  <a
+                    href="#"
+                    class="btn btn-info btn-sm"
+                    style="
+                      padding: 10px;
+                      background-color: #2a1e59;
+                      float: right;
+                      border-radius: 10px;
+                    "
+                    ><span style="color: white">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-cart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                        />
+                      </svg>
+                      BUY NOW
+                    </span>
+                  </a>
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container" style="padding-top: 100px">
+        <h1 class="text-uppercase third-header-font">travel backpack</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 card-border">
+              <img src="photos/img4.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title card-title-new">Travel Sport West Highland</h3>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <h2>
+                  <span class="price-text"> $200</span>
+                  <a
+                    href="#"
+                    class="btn btn-info btn-sm"
+                    style="
+                      padding: 10px;
+                      background-color: #2a1e59;
+                      float: right;
+                      border-radius: 10px;
+                    "
+                    ><span style="color: white">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-cart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                        />
+                      </svg>
+                      BUY NOW
+                    </span>
+                  </a>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-border">
+              <img src="photos/img5.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title card-title-new">
+                  Jack Wolfskin West Highland
+                </h3>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content. To buy click on buy button.
+                </p>
+                <h2>
+                  <span class="price-text"> $310</span>
+                  <a
+                    href="#"
+                    class="btn btn-info btn-sm"
+                    style="
+                      padding: 10px;
+                      background-color: #2a1e59;
+                      float: right;
+                      border-radius: 10px;
+                    "
+                    ><span style="color: white">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-cart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                        />
+                      </svg>
+                      BUY NOW
+                    </span>
+                  </a>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-border">
+              <img src="photos/img6.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title card-title-new">
+                  Hiking Trekking Bag Camping
+                </h3>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <h2>
+                  <span class="price-text"> $280</span>
+                  <a
+                    href="#"
+                    class="btn btn-info btn-sm"
+                    style="
+                      padding: 10px;
+                      background-color: #2a1e59;
+                      float: right;
+                      border-radius: 10px;
+                    "
+                    ><span style="color: white">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-cart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                        />
+                      </svg>
+                      BUY NOW
+                    </span>
+                  </a>
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="aboutus" class="container" style="padding-top: 100px">
+        <div class="d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="d-flex flex-row bd-highlight align-items-center mt-5">
+                <div class="bd-highlight">
+                  <img src="logo-icon/icon1.png" width="50%" alt="" />
+                </div>
+                <div class="bd-highlight">
+                  <h3>Find the Perfect Fit</h3>
+                  <p>
+                    Everybody is different, which is why we offer styles for
+                    every body.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex flex-row bd-highlight align-items-center mt-5">
+                <div class="bd-highlight">
+                  <img src="logo-icon/icon2.png" width="50%" alt="" />
+                </div>
+                <div class="bd-highlight">
+                  <h3>Free Exchanges</h3>
+                  <p>
+                    One of the many reasons you can shop with peace of mind.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex flex-row bd-highlight align-items-center mt-5">
+                <div class="bd-highlight">
+                  <img src="logo-icon/icon3.png" width="50%" alt="" />
+                </div>
+                <div class="bd-highlight">
+                  <h3>Contact Our Seller</h3>
+                  <p>
+                    They are here to help you. That's quite literally what we
+                    pay them for.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <img src="logo-icon/find-us.png" style="width: 100%" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container" style="padding-top: 100px">
+        <h1 class="text-uppercase third-header-font">40% off</h1>
+        <div class="row row-cols-1 row-cols-md-6 g-2">
+          <div class="col">
+            <div class="card h-100 card-border">
+              <img src="photos/11.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title card-title-new"></h3>
+                <p class="card-text">
+                  <a
+                    class="text-uppercase"
+                    href="http://"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >add to cart</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-border">
+              <img src="photos/22.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title card-title-new"></h3>
+                <p class="card-text">
+                  <a
+                    class="text-uppercase"
+                    href="http://"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >add to cart</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-border">
+              <img src="photos/33.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title card-title-new"></h3>
+                <p class="card-text">
+                  <a
+                    class="text-uppercase"
+                    href="http://"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >add to cart</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-border">
+              <img src="photos/44.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title card-title-new"></h3>
+                <p class="card-text">
+                  <a
+                    class="text-uppercase"
+                    href="http://"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >add to cart</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-border">
+              <img src="photos/55.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title card-title-new"></h3>
+                <p class="card-text">
+                  <a
+                    class="text-uppercase"
+                    href="http://"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >add to cart</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-border">
+              <img src="photos/66.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title card-title-new"></h3>
+                <p class="card-text">
+                  <a
+                    class="text-uppercase"
+                    href="http://"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >add to cart</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container" style="padding-top: 100px">
+        <h1 class="text-uppercase third-header-font">
+          make payment through Our merchant
+        </h1>
+        <div class="d-flex justify-content-around" style="padding-top: 50px">
+          <div>
+            <h5>Payment at bKash through own bKash</h5>
+            <a href=""> <img src="photos/bkash-logo.png" alt="" /></a>
+          </div>
+          <div>
+            <h5>Pay bill through Rocket</h5>
+            <a href=""><img src="photos/rocket-logo.png" alt="" /></a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-around" style="padding-top: 50px">
+          <div>
+            <h5>Payment by card at any SamBd Offices</h5>
+            <a href=""><img src="photos/visa-card.png" alt="" /></a>
+          </div>
+          <div>
+            <h5>Pay bill through IPay</h5>
+            <a href=""><img src="photos/ipay-logo.png" alt="" /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="text-center"><br><br><strong>©2021 | Penguin Fashion</strong><br><br></footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
